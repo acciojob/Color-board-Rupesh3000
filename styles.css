@@ -1,34 +1,33 @@
-* {
-  margin: 0px;
-  padding: 0px;
+/* reset */
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-html,
-body {
-  height: 100%;
-  width: 100%;
-}
-
+/* container – flex so squares wrap nicely */
 .container {
-  height: 100%;
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
-	background-color:rgb(29, 29, 29)
+  width: 100%;
+  min-height: 100vh;          /* just to fill the page */
+  background: #1d1d1d;       /* dark background for contrast */
 }
 
+/* each square */
 .square {
-  display: inline-block;
+  display: inline-block;               /* works as a flex item as well */
   width: 20px;
   height: 20px;
   margin: 3px;
-  background-color: rgb(29, 29, 29);
-  transition-property: all;
-  transition-timing-function: linear;
-  transition-delay: 1s;
+  background-color: rgb(29, 29, 29);   /* original colour */
+  /* transition that lasts 1 second – no delay */
+  transition: background-color 1s linear;
 }
 
+/* hover state */
 .square:hover {
-  background-color: green;
+  background-color: green;   /* colour while the mouse is over the element */
 }

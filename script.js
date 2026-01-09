@@ -1,8 +1,10 @@
-//your JS code here. If required.
-const container = document.querySelector(".container");
+// How many squares you want (adjust as needed)
+const TOTAL_SQUARES = 800;
 
-for (let i = 1; i <= 800; i++) {
-  const square = document.createElement("span"); // new element each loop
-  square.className = "square";
-  container.appendChild(square);
+const container = document.querySelector('.container');
+
+for (let i = 1; i <= TOTAL_SQUARES; i++) {
+  const sq = document.createElement('div');   // use <div> (or <span>) – both work
+  sq.className = 'square';
+  container.appendChild(sq);
 }
