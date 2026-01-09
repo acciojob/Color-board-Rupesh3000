@@ -13,7 +13,7 @@
   flex-wrap: wrap;
   width: 100%;
   min-height: 100vh;          /* just to fill the page */
-  background: #1d1d1d;       /* dark background for contrast */
+  background-color:rgb(29, 29, 29);       /* dark background for contrast */
 }
 
 /* each square */
@@ -23,12 +23,12 @@
   height: 20px;
   margin: 3px;
     /* original colour */
-	background-color:rgb(29,29,29);
+	background-color:rgb(29, 29, 29);
   /* transition that lasts 1 second – no delay */
   transition: background-color 1s linear;
 }
 
 /* hover state */
 .square:hover {
-  color: rgb(29,29,29);  /* colour while the mouse is over the element */
+ background-color:rgb(29, 29, 29);  /* colour while the mouse is over the element */
 }
