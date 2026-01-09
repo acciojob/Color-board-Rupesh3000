@@ -23,11 +23,12 @@
   height: 20px;
   margin: 3px;
     /* original colour */
+	background-color:rgb(29,29,29);
   /* transition that lasts 1 second – no delay */
   transition: background-color 1s linear;
 }
 
 /* hover state */
 .square:hover {
-  background-color: rgb(29,29,29);  /* colour while the mouse is over the element */
+  color: rgb(29,29,29);  /* colour while the mouse is over the element */
 }
