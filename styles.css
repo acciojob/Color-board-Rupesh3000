@@ -22,7 +22,7 @@
   width: 20px;
   height: 20px;
   margin: 3px;
-  background-color: rgb(29,29,29);   /* original colour */
+    /* original colour */
   /* transition that lasts 1 second – no delay */
   transition: background-color 1s linear;
 }
