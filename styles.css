@@ -1,1 +1,33 @@
-/*  your css code here. If applicable */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 3px;
+  background-color: teal;
+  transition-property: all;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+
+.square:hover {
+  background-color: green;
+}
