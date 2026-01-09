@@ -29,5 +29,5 @@
 
 /* hover state */
 .square:hover {
-  background-color: green;   /* colour while the mouse is over the element */
+  background-color: rgb(29,29,29);  /* colour while the mouse is over the element */
 }
